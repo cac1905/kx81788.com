@@ -1,0 +1,104 @@
+/* CSS Document */
+/*清除浮动代码*/ 
+.clear:after{display:block;clear:both;content:"";visibility:hidden;height:0} 
+.clear{zoom:1} 
+
+body{
+    font-family: 'Microsoft YaHei'!important;
+}
+
+.live-chat {
+    background: url('../../images/_cs/header_livechat.gif') no-repeat!important;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.new {
+    background-position: 0 0;
+}
+#carousel img {display: block; opacity: .5; cursor: pointer;}
+.bg-happy:hover {
+    opacity: 1;
+    background: url(../../images/_cs/bg_happy_place_hover.png);
+    transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.bg-lucky:hover {
+    opacity: 1;
+    background: url(../../images/_cs/bg_lucky_place_hover.png);
+    transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+.bg-ag:hover {
+    opacity: 1;
+    background: url(../images/_en/bg_ag_place_hover.png);
+    transition: all 0.5s ease 0s;
+     -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+#bg-happy .flex-active-slide{opacity: 1; cursor: default;background: url(../../images/_cs/bg_happy_place_hover.png);transition: all 0.5s ease 0s;}
+#bg-happy .flex-active-slide  img{opacity: 1; cursor: default;background: url(../../images/_cs/bg_happy_place_hover.png);transition: all 0.5s ease 0s;}
+#carousel .flex-active-slide img {opacity: 1; cursor: default;}
+
+
+.bg-happy{
+    background: url(../../images/_cs/bg_happy_place.png)!important;
+     width: 331px;
+     height: 94px;
+     display: block;
+     padding-left: 49px;
+}
+
+.bg-lucky{
+    background: url(../../images/_cs/bg_lucky_place.png)!important;
+     width: 205px;
+     height: 94px;
+     display: block;
+     padding-left: 49px;
+}
+.bg-ag{
+       background: url(../../images/_cs/bg_ag_place.png)!important;
+     width: 331px;
+     height: 94px;
+     display: block;
+     padding-left: 49px;
+}
+#carousel .bg-happy.flex-active-slide {
+    cursor: default;
+    background: url(../../images/_cs/bg_happy_place_hover.png)!important;
+}
+#carousel .bg-lucky.flex-active-slide {
+    cursor: default;
+    background: url(../../images/_cs/bg_lucky_place_hover.png)!important;
+}
+#carousel .bg-ag.flex-active-slide  {
+    cursor: pointer;
+    background: url(../../images/_cs/bg_ag_place_hover.png)!important;
+     -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+.head-nav li a{
+    font-family: 'Microsoft YaHei'!important;
+     padding: 0 25px;
+     letter-spacing: 1px;
+}
+
+.left-part h3{
+     font: 16px/24px 'Microsoft YaHei'!important;
+}
+.prod-list .btn a,
+.prod-list .howPlay a{
+    font-family: 'Microsoft YaHei'!important;
+}

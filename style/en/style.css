@@ -1,0 +1,94 @@
+/* CSS Document */
+
+@font-face {
+    font-family: AvenirNextLTPro-MediumCn;
+    src:url(../../font/AvenirNextLTPro-MediumCn.eot);
+}
+
+@font-face {
+    font-family: AvenirNextLTPro-DemiCn;
+    src:url(../../font/AvenirNextLTPro-DemiCn.otf);
+}
+@font-face {
+    font-family: AvenirNextLTPro-MediumCn;
+    src:url(../../font/AvenirNextLTPro-MediumCn.otf);
+}
+@font-face {
+    font-family: AvenirNextLTPro-MediumCn;
+    src:url(../../font/AvenirNextLTPro-MediumCn.ttf);
+}
+
+/*******************
+    HEADER
+*******************/
+
+
+#carousel img {display: block; opacity: .5; cursor: pointer;}
+.bg-happy:hover {opacity: 1;background: url(../../images/_en/bg_happy_place_hover.png);transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;}
+.bg-lucky:hover {opacity: 1;background: url(../../images/_en/bg_lucky_place_hover.png);transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;}
+.bg-ag:hover {opacity: 1;background: url(../../images/_en/bg_ag_place_hover.png);transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;}
+
+#bg-happy .flex-active-slide{opacity: 1; cursor: default;background: url(../../images/_en/bg_happy_place_hover.png);transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;}
+#bg-happy .flex-active-slide  img{opacity: 1; cursor: default;background: url(../../images/_en/bg_happy_place_hover.png);transition: all 0.5s ease 0s; -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;}
+#carousel .flex-active-slide img {opacity: 1; cursor: default;}
+ 
+.bg-happy{
+    background: url(../../images/_en/bg_happy_place.png);
+     width: 331px;
+     height: 94px;
+     display: block;
+}
+
+.bg-lucky{
+       background: url(../../images/_en/bg_lucky_place.png);
+     width: 205px;
+     height: 94px;
+     display: block;
+}
+.bg-ag{
+       background: url(../../images/_en/bg_ag_place.png);
+     width: 331px;
+     height: 94px;
+     display: block;
+}
+#carousel .bg-happy.flex-active-slide {
+    cursor: default;
+    background: url(../../images/_en/bg_happy_place_hover.png);
+     -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+#carousel .bg-lucky.flex-active-slide {
+    cursor: default;
+    background: url(../../images/_en/bg_lucky_place_hover.png);
+     -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+#carousel .bg-ag.flex-active-slide  {
+    cursor: default;
+    background: url(../../images/_en/bg_ag_place_hover.png);
+     -moz-transition: all 0.5s ease-in;
+    -webkit-transition: all 0.5s ease-in;
+    -o-transition: all 0.5s ease-in;
+    transition: all 0.5s ease-in;
+}
+
+ 
